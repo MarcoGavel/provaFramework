@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <header class="header">
+    <div class="header__content">
+      <a class="header__logo" href="#">
+        <strong>LOGO</strong>
+      </a>
+      <ul class="header__menu">
+        <li><a href="#">Store</a></li>
+        <li><a href="#">Mac</a></li>
+        <li><a href="#">iPad</a></li>
+        <li><a href="#">iPhone</a></li>
+        <li><a href="#">Watch</a></li>
+      </ul>
+      <div class="header__quick">
+        <a href="#">Contacts</a>
+        <div class="icon-hamburger">
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="cover" style="background-image:linear-gradient(90deg, rgba(131,58,180,0.21) 0%, rgba(253,29,29,0.16373626373626375) 50%, rgba(252,176,69,0.15604395604395604) 100%), url('https://source.unsplash.com/random')">
+    <div class="cover__content">
+      <h1> Cover title</h1>
+      <h2> Subtitle </h2>
+    <a href="#" class="button">Call to action</a>
+    </div>
+  </div>
+  
+  <div class="spacer"></div>
+
+  <div class="grid p-2">
+    <div class="col-50">
+    <h1>Hey, Ciao Mondo!!</h1>
+    <h2>Questo è un h2</h2>
+    <h3>Questo un h3</h3>
+    <p>Paragrafo</p>
+    <a href="" class="button mb-2">Questo un bottone con css</a>
+    </div>
+    <div class="col-50 p-2">
+      <p>ciao, questo è un paragrafo in una seconda colonna. andrà a destra su desktop per formare la griglia con 2 colonne</p>
+    </div>
+</div>
+
+
+<div class="grid p-2">
+  <div class="col-50">
+  <h1>un h1</h1>
+  
+  </div>
+  <div class="col-50 p-2">
+    <div class="cover" style="background-image:linear-gradient(90deg, rgba(131,58,180,0.21) 0%, rgba(253,29,29,0.16373626373626375) 50%, rgba(252,176,69,0.15604395604395604) 100%), url('https://source.unsplash.com/random')">
+      <div class="cover__content">
+        <h1> Cover title</h1>
+        <h2> Subtitie </h2>
+      <a href="#" class="button">Call to action</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="grid p-2">
+  <div class="col-50">
+    <div class="cover" style="background-image:linear-gradient(90deg, rgba(131,58,180,0.21) 0%, rgba(253,29,29,0.16373626373626375) 50%, rgba(252,176,69,0.15604395604395604) 100%), url('https://source.unsplash.com/random')">
+      <div class="cover__content">
+        <h1> Cover title</h1>
+        <h2> Subtitie </h2>
+      <a href="#" class="button">Call to action</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-50 p-2">
+    <p>ciao, questo è un paragrafo in una seconda colonna. andrà a destra su desktop per formare la griglia con 2 colonne</p>
+  </div>
+</div>
+
+  
+  <script>
+    let item = document.querySelector('.icon-hamburger');
+    item.addEventListener("click", function() {
+          document.body.classList.toggle('menu-open');
+    });
+  </script>
+
+</body>
+</html>
