@@ -24,14 +24,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 Feel free to explore the code and contribute to enhance the web page further!
 
-[![View Demo](https://img.shields.io/badge/View-Demo-blue)](https://your-demo-url.com)
-[![GitHub Issues](https://img.shields.io/github/issues/your-username/your-repo)](https://github.com/your-username/your-repo/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/your-username/your-repo)](https://github.com/your-username/your-repo/pulls)
-
-## Preview
-![Web Page Preview](preview.png)
-
-[Click here](preview.png) to view a larger preview.
 
 
 
